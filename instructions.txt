@@ -1,0 +1,18 @@
+When setting up a new Django project, we begin
+with a "skeleton" website, which can later be 
+built and configured using site-specific
+settings, paths, models, views, and templates.
+
+Here are the initial project setup steps:
+1. Use the django-admin tool to create a project folder,
+initial files, and the manage.py tool.
+`django-admin startproject RecipeApp`
+
+2. Use manage.py tool(created above) to create one or more 
+django apps 
+
+3. Register the created apps in the project's settings 
+configuration file 
+
+4. Map the `urls/paths` of each application appropriately
+
